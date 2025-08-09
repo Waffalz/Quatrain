@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://cnha4avcuo45b"]
+
+[ext_resource type="Script" uid="uid://bngeyvh6o1ftj" path="res://src/Core/GameBoardCore.cs" id="1_jcoq5"]
+
+[node name="GameBoard" type="Node"]
+
+[node name="Core" type="Node" parent="."]
+
+[node name="GameBoardCore" type="Node" parent="Core"]
+script = ExtResource("1_jcoq5")
+
+[node name="View" type="Node3D" parent="."]
+
+[node name="GameBoardView3D" type="Node3D" parent="View"]
